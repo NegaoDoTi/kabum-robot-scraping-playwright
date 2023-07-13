@@ -1,0 +1,28 @@
+python kabum_playwright_scraping.py "url" "nome_arquivo"
+
+Exemplo:
+
+python kabum_playwright_scraping.py "https://www.kabum.com.br/celular-smartphone/smartphones" "smartphones_kabum"
+
+URL : { 
+
+O link só pode ser de CATEGORIAS da loja kabum, como smartphones, pcs gamer, notebooks gamer, cadeiras gamer, etc. 
+
+As demais opções de filtros como preço e outros podem ser feitas no site da kabum desde que a url contenha o paramentro 
+"page_number=1".
+
+Caso não tenha nenhum filtro para aplicar pode se passar a url padrão como indicada a cima. 
+
+Quantos mais paginas a categoria tiver mais tempo a busca demorará, por isso é recomendado que use filtros em categorias 
+que possuam muitas paginas, assima busca pode ser mais especifica e eficiente.
+}
+
+
+NOME DO ARQUIVO:{
+No nome do arquivo para pode ser passado o diretório aonde o arquivo xlsx será gerado, caso não passado
+o arquivo sera gerado na pasta do projeto.
+
+Exemplo:
+
+C:\\Users\\myUser\\Documents\\smartphones_kabum
+}
